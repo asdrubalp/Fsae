@@ -1,0 +1,524 @@
+@import url('https://fonts.cdnfonts.com/css/norwester');
+
+
+@font-face {
+    font-family: 'nuestrasletras';
+     src: url('fonts/audiowide/Audiowide-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'nuestrasletras', sans-serif;
+}   
+
+p {
+    font-family: 'nuestrasletras', sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit;
+    font-family: 'nuestrasletras';
+}
+
+#body{
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+
+#principal{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.572)), url("img/upscalemedia-transformed.png");
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titulo-pagina-inicio{
+    display: flex;
+    align-items:center;
+    background-image: linear-gradient( rgb(0, 0, 0)), transparent;
+    height: 12.5vh;
+    width: 100%;
+}
+.imagen-titulo{
+    height: 160%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 1vh;
+    margin-left: 5vh;
+}
+
+#botones-titulo{          
+    margin-right: 2vh;  
+    margin-left: auto;
+    width:auto;
+    height: auto;
+}
+
+.botones-de-inicio{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    transition: background-color 0.6s ease, color 0.6s ease, border-radius 0.6s ease, padding 0.6s ease;
+    margin: 0.5vh;
+}
+
+.botones-de-inicio h1{
+    font-size: 3vh;
+    transition: font-size 0.6s ease;
+    font-family: 'nuestrasletras', sans-serif;
+}
+
+.botones-de-inicio h1:hover{
+    font-size: 3.5vh;
+}
+
+.botones-de-inicio:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5vh 1vh;
+    cursor: pointer;
+}
+
+#Somo-Formula-Sae{
+    display: flex;
+    width: 100%;
+    height: 75%;
+}
+
+.img-Somo-Formula-Sae{
+    display: flex;
+    width: 100%;
+    height: 120%;
+    margin-left: -10%;
+}
+
+.texto-somos-team-formula-sae{
+    padding-left: 5%;
+    margin-top: -5.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 315%;
+    font-family: 'nuestrasletras', sans-serif;
+    word-spacing: 1px;
+    margin-left: -21%;
+    padding-right: 1%;
+    
+}
+
+.texto-somos-team-formula-sae2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 315%;
+    font-family: 'nuestrasletras', sans-serif;
+    margin-left: -11%;
+    margin-top: 5%;
+}
+
+.texto-somos-team-formula-sae3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 315%;
+    font-family: 'nuestrasletras', sans-serif;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.texto-somos-team-formula-sae4{ 
+    display: flex;
+    color: white;
+    font-size: 315%;
+    font-family: 'nuestrasletras', sans-serif;
+    margin-top: 26%;
+    margin-right: 50%;
+    margin-left: -38%;
+}
+
+
+#Proximo-evento{
+    padding: 2vh;
+    background-color: #c22319;
+    font-family: 'nuestrasletras', sans-serif;
+    color: white;
+}
+
+#Proximo-evento h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+}
+
+#demo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c22319;
+    font-family: 'nuestrasletras', sans-serif;
+    color: white;
+    font-size: 200%;
+}
+
+#tiempo{
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+#tiempo h2{
+    font-size: 2.5vh;
+}
+
+.Dia-tiempo1{
+    display: flex;
+    margin-right: 10vh;
+    margin-left: 10vh;
+}
+
+.Dia-tiempo2{
+    display: flex;
+    margin-right: 8vh;
+    margin-left: 10vh;
+}
+
+.Dia-tiempo3{
+    display: flex;
+    margin-right: 10vh;
+    margin-left: 10vh;
+}
+
+.Dia-tiempo4{
+    display: flex;
+    margin-left: 6vh;
+}
+
+#donaciones{
+    background-color: white;
+    color: black;
+    padding: 5vh;
+    font-family: 'nuestrasletras', sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+.donaciones{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.donaciones p{
+    display: flex;
+    margin-left: -30vh;
+    margin-top: 1vh;
+    font-size: 155%;
+    padding-right: 20vh;
+}
+
+.donaciones h1{
+    display: flex;
+    margin-left: 5vh;
+    margin-top: -30vh;
+    font-size: 205%;
+}
+
+.barra-donaciones::-webkit-meter-bar {
+  background: black;
+}
+
+.barra-donaciones::-webkit-meter-optimum-value {
+  background: #fda417;
+}
+
+.meta{
+    margin-top: 1vh;
+    font-size: 180%;
+    margin-right: 20vh;
+    
+}
+
+.botones-de-donaciones{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fda417;
+    font-size: 2.5vh;
+    padding: 2vh;
+    border-radius: 5px;
+    border-color: transparent;
+    color: black;
+    cursor: pointer;
+    font-family: 'nuestrasletras', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.6s ease, color 0.6s ease, border-radius 0.6s ease, padding 0.6s ease, box-shadow 0.6s ease, border-radius 0.6s ease;
+}
+
+.botones-de-donaciones:hover{
+    color: black;
+    background-color: #fda417;
+    padding: 2.5vh 3vh;
+    transition: all 0.6s ease;
+    box-shadow: 4px 4px 20px rgb(0,0,0,0.5);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#container{
+    background-color: #274683;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: white;
+}
+
+#equipo{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+  
+.carta-perfil h3, .carta-perfil p{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'nuestrasletras', sans-serif;
+}
+
+.carta-perfil{    
+    color: white;
+    height: 40vh;
+    width: 40vh;
+    margin-top: 2% ;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    margin-top: 3vh;
+    padding: 10% 10%;
+    background-color: #484850;
+    border: 1px solid rgb(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.5);
+    border-radius: 10px;
+    background-size: 90%
+}
+
+#Redes-sociales{
+    display: flex;
+    font-family: 'nuestrasletras', sans-serif;
+    color: white;
+    background-color: #27272c;
+    padding: 3vh;
+}
+
+.Redes-sociales{
+    display: flex;
+    align-items: center;
+    font-family: 'nuestrasletras', sans-serif;
+}
+
+#Redes-sociales h1{
+    font-size: 200%;
+
+}
+
+.iconos-RS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-left: 4vh;
+}
+
+#iconos{
+    padding: 3.5vh;
+    padding-left: 4.5vh;
+    padding-right: 4.5vh;
+    font-size: 440%;
+    cursor: pointer;    
+    transition: font-size 0.6s ease;
+}
+
+#iconos:hover{
+    padding: 3.5vh;
+    padding-left: 4.5vh;
+    padding-right: 4.5vh;
+    font-size: 500%;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+
+.texto-RS{
+    font-size: 125%;
+}
+
+#titulo-RS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 125%;
+    margin-left: 4vh;
+}
+
+.titulo-RS{
+    margin-top: -10vh;
+}
+
+.titulo-RS1{
+    width: 200%;
+    height: 100px;
+    margin-top: 30%;
+    margin-left: -70%;
+}
+
+#Nuestro-pasado{
+    background-image: url("img/nuestro-pasado.png");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 2vh;
+}
+
+#Nuestro-pasado h1{
+    color: white;
+    font-size: 200%;
+    margin: 2vh;
+    margin-bottom: 0.5vh;
+}
+
+#Nuestro-pasado p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 125%;
+    margin: 2vh;
+    padding-right: 60%;
+    margin-top: 0.5vh;
+}
+
+#nuestro-presente{
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #27272c;
+}
+
+#nuestro-presente h1{
+    font-size: 200%;
+    margin: 2vh;
+    margin-bottom: 0.5vh;
+}
+
+#nuestro-presente p{
+    font-size: 125%;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    margin: 2vh;
+    margin-top: 0.5vh;
+    margin-bottom: 3vh;
+}
+
+.nuestro-presente-p{
+    margin-left: 8.5vh;
+    margin-right: 8.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nuestro-futuro{
+    background-image: url("img/futuro.png");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 2vh;
+}
+
+#nuestro-futuro h1{
+    color: white;
+    font-size: 200%;
+    margin: 2vh;
+    margin-bottom: 0.5vh;
+    padding-left: 108vh;
+    padding-left: 58%;
+}
+
+#nuestro-futuro p{
+    color: white;
+    font-size: 125%;
+    margin: 2vh;
+    margin-top: 0.5vh;
+    padding-right: 2vh;
+    padding-left: 58%;
+}
+
+#patrocinadores{
+    margin: 0vh;
+    background-color: white;
+    color: black;
+    padding: 4vh;
+    font-family: 'nuestrasletras', sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+.patrocinadores h1{
+    display: flex;
+    margin-left: 10vh;
+    font-size: 200%;
+}
+
+#img-patrocinadores{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-patrocinador{
+    height: 10%;
+    width: 20%;
+    margin: 1vh;
+    gap: 3vh;
+}
