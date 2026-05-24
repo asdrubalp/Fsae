@@ -533,6 +533,13 @@ body {
     .diseno-badge { right: 15px; bottom: -15px; }
     .redes-container-min { flex-direction: column; gap: 2rem; }
     .redes-header-min h2 { text-align: center; }
+    /* Ajuste responsivo de la galería en móviles */
+    .galeria-item { 
+        min-width: 75vw; /* La foto ocupará el 75% del ancho de la pantalla del celular */
+        height: 60vw; /* La altura crece o se encoge en proporción perfecta al ancho */
+        max-height: 320px; /* Un límite de seguridad para que no se vuelva gigante en tablets pequeñas */
+        scroll-snap-align: center; 
+    }
 }
 
 @media (max-width: 768px) {
@@ -646,6 +653,13 @@ body {
     .member-name {
         font-size: 1.15rem;
             }
+            /* Ajuste responsivo de la galería en móviles */
+    .galeria-item { 
+        min-width: 75vw; /* La foto ocupará el 75% del ancho de la pantalla del celular */
+        height: 60vw; /* La altura crece o se encoge en proporción perfecta al ancho */
+        max-height: 320px; /* Un límite de seguridad para que no se vuelva gigante en tablets pequeñas */
+        scroll-snap-align: center; 
+    }
 
 }
 
